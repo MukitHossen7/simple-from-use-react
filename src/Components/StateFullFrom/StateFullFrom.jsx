@@ -56,6 +56,7 @@ const StateFullFrom = () => {
             type="password"
             placeholder="Enter Password"
             name="phone"
+            required
             className="input input-bordered input-md w-full max-w-xs"
           />{" "}
           {error && (
