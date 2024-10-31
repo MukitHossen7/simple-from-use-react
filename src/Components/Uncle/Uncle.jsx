@@ -1,4 +1,5 @@
 import Cousin from "../Cousin/Cousin";
+import Toma from "../Toma/Toma";
 
 const Uncle = () => {
   return (
@@ -7,6 +8,7 @@ const Uncle = () => {
       <div className="flex gap-3">
         <Cousin></Cousin>
         <Cousin></Cousin>
+        <Toma></Toma>
       </div>
     </div>
   );
